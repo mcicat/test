@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
 	char name[256];
-	printf("Please insert your name: ");
+	printf("Please insert your full name (first name and last name): ");
 	scanf("%s", name);
 	
 	return 0;
