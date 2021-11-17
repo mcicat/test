@@ -7,6 +7,9 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello CMake." << endl;
+	char name[256];
+	printf("Please insert your name: ");
+	scanf("%s", name);
+	
 	return 0;
 }
